@@ -66,7 +66,7 @@ class gf_quiz_question : AppCompatActivity() {
             if (!isAnswerChecked) {
                 val anyAnswerIsChecked = selectedAlternativeIndex != -1
                 if (!anyAnswerIsChecked) {
-                    Toast.makeText(this, "Please, select an alternative", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Por favor, selecciona una opción", Toast.LENGTH_SHORT).show()
                 } else {
                     val currentQuestion = questionsList[currentQuestionIndex]
                     if (

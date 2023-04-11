@@ -16,7 +16,7 @@ object Constans {
 
         questionsList.add(questionOne)
         val questionTwo = Gf_question_data(
-            0,
+            1,
             "¿A cuanto años humano equivale 1 año perruno?",
             R.drawable.dog_app,
             arrayListOf("2", "5",
@@ -26,7 +26,7 @@ object Constans {
 
         questionsList.add(questionTwo)
         val questionThree = Gf_question_data(
-            0,
+            2,
             "¿Cuantas veces debemos pasear a nuestros perrunos?",
             R.drawable.dog_app,
             arrayListOf("2", "1",
@@ -37,7 +37,7 @@ object Constans {
         questionsList.add(questionThree)
 
         val questionFour = Gf_question_data(
-            0,
+            3,
             "¿Cual es el enemigo de los perros?",
             R.drawable.dog_app,
             arrayListOf("Rata", "Pitbull",
